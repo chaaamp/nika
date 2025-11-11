@@ -1,0 +1,266 @@
+concept_attraction
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [достопримечательность]
+   (* <- lang_ru;; *);
+=> nrel_note:
+   [ 
+      Объект культурной, исторической, архитектурной или природной ценности,
+      представляющий интерес для посещения.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_museum
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [музей]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Учреждение, занимающееся собиранием, изучением и экспонированием предметов
+      культурной и исторической ценности.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_monument
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [памятник]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Архитектурный или скульптурный объект, увековечивающий событие или личность.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_park
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [парк]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Озеленённая территория для отдыха, прогулок и культурных мероприятий.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_historic_site
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [историческое место]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Место, связанное с важными историческими событиями или объектами наследия.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_landmark
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [знаковый объект]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Распознаваемый объект или сооружение, служащее символом города или региона.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_religious_site
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [культовое сооружение]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Объект религиозного назначения, представляющий культурную и архитектурную ценность.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_square
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [площадь]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Открытое городское пространство, обычно окружённое зданиями и служащее местом общественных событий.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_bridge
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [мост]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Инженерное сооружение для пересечения препятствий (река, овраг, дорога), часто являющееся туристической достопримечательностью.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_palace
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [дворец]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Крупное и представительное жилое или парадное строение, исторически связанное с монархами или знатью.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_castle
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [замок]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Укреплённое историческое сооружение оборонительного и резиденциального назначения.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_tower
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [башня]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Высотное сооружение, как правило, доминирующее в городской панораме и доступное для посещения.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_theatre
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [театр]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Здание или учреждение для постановки драматических, оперных и балетных спектаклей.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_gallery
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [картинная галерея]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Учреждение, экспонирующее коллекции живописи, скульптуры и других видов искусства.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_fountain
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [фонтан]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Гидротехническое сооружение декоративного назначения, часто в ансамбле площади или парка.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_university_campus
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [университетский кампус]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Комплекс зданий и территорий университета, представляющий архитектурную и культурную ценность.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_market
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [рынок]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Торговая территория или крытый комплекс, известный как туристический объект с уникальной атмосферой.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_riverfront
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [набережная]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Обустроенная территория вдоль берега реки или моря, популярная для прогулок и видов.
+   ]
+   (* <- lang_ru;; *);;
+
+concept_zoo
+<- sc_node_class;
+<- class;
+=> nrel_main_idtf:
+   [зоопарк]
+   (* <- lang_ru;; *);
+<= nrel_inclusion:
+   concept_attraction;
+=> nrel_note:
+   [ 
+      Парк, в котором содержатся и демонстрируются живые животные, часто с научной и образовательной миссией.
+   ]
+   (* <- lang_ru;; *);;
+

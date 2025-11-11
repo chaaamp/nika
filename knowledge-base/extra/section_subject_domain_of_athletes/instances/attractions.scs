@@ -1,0 +1,275 @@
+eiffel_tower
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Эйфелева башня]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: france;
+=> nrel_located_in_city: paris;
+=> nrel_built_year: 1889;
+=> nrel_architect: [Гюстав Эйфель];
+=> nrel_architectural_style: [железная решётчатая башня, инженерная архитектура XIX века];
+=> nrel_open_hours: [ежедневно 09:30–23:45, сезонные изменения];
+=> nrel_has_description:
+  [Главный символ Парижа и одна из самых узнаваемых достопримечательностей мира. Построена к Всемирной выставке 1889 года на Марсовом поле.]
+  (* <- lang_ru;; *);;
+
+colosseum
+<- concept_historic_site;
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Колизей]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: italy;
+=> nrel_located_in_city: rome;
+=> nrel_built_year: 80;
+=> nrel_architectural_style: [древнеримская архитектура, амфитеатр];
+=> nrel_has_description:
+  [Древнеримский амфитеатр во Риме, крупнейший из когда-либо построенных, один из самых известных памятников античности.]
+  (* <- lang_ru;; *);;
+
+saint_basils_cathedral
+<- concept_religious_site;
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Собор Василия Блаженного]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: moscow;
+=> nrel_built_year: 1561;
+=> nrel_architectural_style: [русское зодчество XVI века];
+=> nrel_has_description:
+  [Православный храм на Красной площади в Москве, известный своими яркими луковичными куполами.]
+  (* <- lang_ru;; *);;
+
+louvre_museum
+<- concept_museum;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Лувр]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: france;
+=> nrel_located_in_city: paris;
+=> nrel_has_description:
+  [Крупнейший художественный музей мира и исторический памятник в Париже, расположен в дворцовом комплексе Лувр.]
+  (* <- lang_ru;; *);;
+
+sydney_opera_house
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Сиднейский оперный театр]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: australia;
+=> nrel_located_in_city: sydney;
+=> nrel_built_year: 1973;
+=> nrel_architect: [Йорн Утзон];
+=> nrel_architectural_style: [экспрессионизм, модернизм];
+=> nrel_has_description:
+  [Знаковое здание на берегу залива Сиднея, объект Всемирного наследия ЮНЕСКО, символ Австралии.]
+  (* <- lang_ru;; *);;
+
+forbidden_city
+<- concept_historic_site;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Запретный город]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: china;
+=> nrel_located_in_city: beijing;
+=> nrel_built_year: 1420;
+=> nrel_architectural_style: [китайская императорская архитектура];
+=> nrel_has_description:
+  [Императорский дворцовый комплекс в центре Пекина, служивший резиденцией китайских императоров династий Мин и Цин.]
+  (* <- lang_ru;; *);;
+
+trevi_fountain
+<- concept_fountain;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Фонтан Треви]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: italy;
+=> nrel_located_in_city: rome;
+=> nrel_built_year: 1762;
+=> nrel_architect: [Никола Сальви];
+=> nrel_architectural_style: [барокко];
+=> nrel_has_description:
+  [Один из самых известных фонтанов мира в Риме; часть дворцового ансамбля Палаццо Поли.]
+  (* <- lang_ru;; *);
+=> nrel_is_part_of: [palazzo_poli_complex];;
+
+palace_square
+<- concept_square;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Дворцовая площадь]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: saint_petersburg;
+=> nrel_has_description:
+  [Центральная площадь Санкт‑Петербурга, архитектурный ансамбль с Зимним дворцом и Александровской колонной.]
+  (* <- lang_ru;; *);;
+
+hermitage_museum
+<- concept_museum;
+<- concept_gallery;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Государственный Эрмитаж]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: saint_petersburg;
+=> nrel_open_hours: [вт-вс 10:30–18:00, ср 10:30–21:00];
+=> nrel_ticket_price: [от 500 ₽];
+=> nrel_has_description:
+  [Один из крупнейших художественных музеев мира, основан в 1764 Екатериной II.]
+  (* <- lang_ru;; *);;
+
+charles_bridge
+<- concept_bridge;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Карлов мост]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: czechia;
+=> nrel_located_in_city: prague;
+=> nrel_built_year: 1402;
+=> nrel_architectural_style: [готика];
+=> nrel_has_description:
+  [Средневековый каменный мост через Влтаву, один из символов Праги.]
+  (* <- lang_ru;; *);;
+
+notre_dame
+<- concept_religious_site;
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Собор Парижской Богоматери]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: france;
+=> nrel_located_in_city: paris;
+=> nrel_built_year: 1345;
+=> nrel_architectural_style: [французская готика];
+=> nrel_nearby: louvre_museum;
+=> nrel_has_description:
+  [Знаковый готический собор на острове Сите, один из символов Парижа.]
+  (* <- lang_ru;; *);;
+
+winter_palace
+<- concept_palace;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Зимний дворец]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: saint_petersburg;
+=> nrel_built_year: 1762;
+=> nrel_architectural_style: [русское барокко];
+=> nrel_has_description:
+  [Бывшая императорская резиденция в Санкт‑Петербурге, часть комплекса Государственного Эрмитажа.]
+  (* <- lang_ru;; *);;
+
+tower_of_london
+<- concept_castle;
+<- concept_landmark;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Лондонский Тауэр]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: united_kingdom;
+=> nrel_located_in_city: london;
+=> nrel_built_year: 1078;
+=> nrel_architectural_style: [нормандская крепость];
+=> nrel_has_description:
+  [Историческая крепость на северном берегу Темзы, служившая королевским дворцом и тюрьмой.]
+  (* <- lang_ru;; *);;
+
+bolshoi_theatre
+<- concept_theatre;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Большой театр]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: moscow;
+=> nrel_built_year: 1856;
+=> nrel_architectural_style: [классическая архитектура];
+=> nrel_has_description:
+  [Главная опера и балетная сцена России, историческое здание на Театральной площади.]
+  (* <- lang_ru;; *);;
+
+oxford_university
+<- concept_university_campus;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Оксфордский университет]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: united_kingdom;
+=> nrel_located_in_city: oxford;
+=> nrel_has_description:
+  [Один из старейших университетов мира с выдающейся архитектурой колледжей и библиотек.]
+  (* <- lang_ru;; *);;
+
+camden_market
+<- concept_market;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Рынок Кэмден]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: united_kingdom;
+=> nrel_located_in_city: london;
+=> nrel_has_description:
+  [Известный лондонский рынок с уличной едой, ремёслами и альтернативной культурой.]
+  (* <- lang_ru;; *);;
+
+south_bank
+<- concept_riverfront;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Саут-Банк]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: united_kingdom;
+=> nrel_located_in_city: london;
+=> nrel_has_description:
+  [Набережная Темзы с культурными центрами и видами на Вестминстер и Сити.]
+  (* <- lang_ru;; *);;
+
+gorky_park
+<- concept_park;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Парк Горького]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: moscow;
+=> nrel_has_description:
+  [Центральный парк культуры и отдыха в Москве, современное общественное пространство.]
+  (* <- lang_ru;; *);;
+
+motherland_calls
+<- concept_monument;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Родина-мать зовёт!]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: volgograd;
+=> nrel_has_description:
+  [Монументальный памятник-скульптура на Мамаевом кургане, посвящён Сталинградской битве.]
+  (* <- lang_ru;; *);;
+
+moscow_zoo
+<- concept_zoo;
+<- concept_attraction;
+=> nrel_main_idtf:
+   [Московский зоопарк]
+   (* <- lang_ru;; *);
+=> nrel_located_in_country: russia;
+=> nrel_located_in_city: moscow;
+=> nrel_has_description:
+  [Один из старейших зоопарков Европы, основан в 1864 году.]
+  (* <- lang_ru;; *);;
+

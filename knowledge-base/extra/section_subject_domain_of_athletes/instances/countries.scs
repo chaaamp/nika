@@ -1,0 +1,59 @@
+qatar
+<- concept_country;
+=> nrel_main_idtf:
+    [Катар](* <- lang_ru;; *);;
+
+argentina
+<- concept_country;
+=> nrel_main_idtf:
+    [Аргентина](* <- lang_ru;; *);;
+
+russia
+<- concept_country;
+=> nrel_main_idtf:
+    [Россия](* <- lang_ru;; *);;
+
+south_korea
+<- concept_country;
+=> nrel_main_idtf:
+    [Южная Корея](* <- lang_ru;; *);;
+
+switzerland
+<- concept_country;
+=> nrel_main_idtf:
+    [Швейцария](* <- lang_ru;; *);;
+
+australia
+<- concept_country;
+=> nrel_main_idtf:
+    [Австралия](* <- lang_ru;; *);;
+
+france
+<- concept_country;
+=> nrel_main_idtf:
+    [Франция](* <- lang_ru;; *);;
+
+united_kingdom
+<- concept_country;
+=> nrel_main_idtf:
+    [Великобритания](* <- lang_ru;; *);;
+
+usa
+<- concept_country;
+=> nrel_main_idtf:
+    [США](* <- lang_ru;; *);;
+
+china
+<- concept_country;
+=> nrel_main_idtf:
+    [Китай](* <- lang_ru;; *);;
+
+italy
+<- concept_country;
+=> nrel_main_idtf:
+    [Италия](* <- lang_ru;; *);;
+
+czechia
+<- concept_country;
+=> nrel_main_idtf:
+    [Чехия](* <- lang_ru;; *);;
